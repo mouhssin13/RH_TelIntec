@@ -1,0 +1,165 @@
+﻿@model IEnumerable<Telintec_RH.Models.Employee>
+
+@{
+    ViewData["Title"] = "Employees";
+
+    int cmpt = 0;
+    double ts = 0;
+    foreach (var item in Model)
+    {
+        cmpt += 1;
+        ts += item.salary;
+    }
+    Pager pager = new Pager();
+    int pageNo = 0;
+    if (ViewBag.Pager != null)
+    {
+        pager = ViewBag.Pager;
+        pageNo = pager.CurrentPage;
+    }
+}
+<div style="display:flex; width:100%;">
+<div class="analytics">
+        <div class="card">
+            <h6>Total Employees</h6>
+            <div class="card-head">
+                <h4>@cmpt</h4>
+            </div>
+        </div>
+</div>
+    <div class="analytics">
+        <div class="card">
+            <h6>Total Salaries</h6>
+            <div class="card-head">
+                <h4>@ts</h4>
+            </div>
+            <h6>DH</h6>
+        </div>
+    </div>
+
+
+</div>
+
+<div style="display: flex !important; width:100%">
+    <form asp-controller="Departement" asp-action="Index" style="width:70%">
+        <input type="text" name="text" placeholder="Search" style="color:gray ; width:80%; border-radius:7px; padding:7px; color:#000C8E " />
+        <button type="submit" style="margin-left:5px; background-color:#000C8E; border-width:1px; border-color:#000C8E; padding:8px; border-radius:5px; height:40px; width:40px; margin-top:26px;">
+            <i class="fa-solid fa-magnifying-glass" style="color:white"></i>
+
+        </button>
+    </form>
+    <a style="text-decoration:none; background-color:#000C8E; color:white; border-width:1px; border-color:#000C8E;
+       border-radius:7px; height:40px; width:9%; padding:8px; margin-left:285px; margin-top:29px" asp-action="Create">
+        <i class="fa-solid fa-people-group" style="margin-right:5px;"></i>
+
+        <span>Add Emp</span>
+    </a>
+
+</div>
+
+<div style="margin-top:30px; margin-bottom:0px; width:100%; height:35px; border-top-left-radius:9px;border-top-right-radius:9px;
+     background-color:#000C8E; padding:6px">
+    <p style="color:white; font-size:14px; font-weight:600; margin-left:20px">Employees Management</p>
+</div>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.fulleName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cin)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.image)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Tel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.statu)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.salary)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.poste)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Departement.nom)
+            </th>
+            <th>
+                Actions
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                    <b>#@Html.DisplayFor(modelItem => item.ID)</b>
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.fulleName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cin)
+            </td>
+            <td>
+                <img src="~/Images/@item.image" height="42px" width="42px" style="border-radius:15px !important;" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Tel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.statu)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.salary)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.poste)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Departement.nom)
+            </td>
+            <td>
+                    <a asp-controller="Employee" asp-action="Update" asp-route-id="@item.ID" style="width: 32px;height: 32px; text-decoration:none; color:#2A36B8">
+                        <i class="fa-regular fa-pen-to-square"></i>
+                    </a> |
+                    <a onclick="return confirm('Are you sure of deleting...?')" asp-controller="Employee" asp-action="Delete" asp-route-id="@item.ID" style="text-decoration:none;margin-left:5px;width: 32px;height: 32px;color:#2A36B8">
+                        <i class="fa-solid fa-trash-can"></i>
+                    </a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<div class="pagination">
+    @if (pager.TotalPages > 0)
+    {
+        <ul style="margin-top:45px !important">
+            @if (pager.CurrentPage > 1)
+            {
+                <li style="display:inline">
+                    <a class="prev-btn" asp-controller="Employee" asp-action="Index" asp-route-pg="@(pager.CurrentPage - 1)">&lt;before</a>
+                </li>
+
+            }
+            @for (var pge = pager.StartPage; pge <= pager.EndPage; pge++)
+            {
+                <li class="@(pge == pager.CurrentPage ? "active" : "page-item") " style="display:inline">
+                    <a class="page-number" asp-controller="Employee" asp-action="Index" asp-route-pg="@pge">@pge</a>
+                </li>
+            }
+            <li style="display:inline">
+                <a asp-controller="Employee" asp-action="Index" asp-route-pg="@(pager.TotalPages)" class="prev-btn">next &gt; </a>
+            </li>
+        </ul>
+    }
+
+</div>

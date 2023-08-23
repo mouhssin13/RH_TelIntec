@@ -1,0 +1,48 @@
+﻿@model Telintec_RH.Models.AccountViewModel
+@{
+    ViewData["Title"] = "Authentication";
+    Layout = null;
+}
+
+
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/login.css">
+</head>
+<body>
+    <div class="center">
+        <h1>Login</h1>
+        @if (Context.Session.GetString("error") != null)
+        {
+            <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                <small>@Context.Session.GetString("error")</small>
+                <button type="button" class="btn-close" data-bs-dismiss="alert" arialabel="Close"> </button>
+            </div>
+            <br />
+            <hr />
+        }
+        <form asp-action="">
+            <div class="txt_field">
+                <input asp-for="userName" type="text" required>
+                <span></span>
+                <label>Username</label>
+            </div>
+            <div class="txt_field">
+                <input asp-for="password" type="password" required>
+                <span></span>
+                <label>Password</label>
+            </div>
+            <input class="login" type="submit" value="Login">
+            <div>
+                <span asp-validation-for="userName"></span>
+                <span asp-validation-for="password"></span>
+            </div>
+        </form>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

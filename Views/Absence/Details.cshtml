@@ -1,0 +1,42 @@
+﻿@model Telintec_RH.Models.Absence
+
+@{
+    ViewData["Title"] = "Details";
+    var x = Model;
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Absence</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date_Dep)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date_Dep)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date_Fin)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date_Fin)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.reason)
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="~/Reasons/@Model.reason" height="592px" width="492px" style="border-radius:15px !important;" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" style="color:  #000C8E !important; text-decoration: none !important; font-size:16px !important; font-weight:600 !important; margin-top:10px !important;">Back to List</a>
+</div>

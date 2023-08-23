@@ -1,0 +1,81 @@
+﻿@model Telintec_RH.Models.Employee
+
+@{
+    ViewData["Title"] = "Create-Employee";
+}
+
+<h1>Create</h1>
+
+<h4>New Employee</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ID" class="control-label"></label>
+                <input asp-for="ID" class="form-control" readonly/>
+                <span asp-validation-for="ID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="fulleName" class="control-label"></label>
+                <input asp-for="fulleName" class="form-control" />
+                <span asp-validation-for="fulleName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="cin" class="control-label"></label>
+                <input asp-for="cin" class="form-control" />
+                <span asp-validation-for="cin" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="image" class="control-label"></label>
+                <input type="file" asp-for="image" class="form-control" />
+                <span asp-validation-for="image" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Tel" class="control-label"></label>
+                <input asp-for="Tel" class="form-control" />
+                <span asp-validation-for="Tel" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="statu" class="control-label"></label>
+                <select asp-for="statu" class="form-control">
+                    <option value="WORKING">WORKING</option>
+                    <option value="ABSENT">ABSENT</option>
+                    <option value="HOLIDAY">HOLIDAY</option>
+                </select>
+                <span asp-validation-for="statu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="salary" class="control-label"></label>
+                <input asp-for="salary" class="form-control" />
+                <span asp-validation-for="salary" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="poste" class="control-label"></label>
+                <input asp-for="poste" class="form-control" />
+                <span asp-validation-for="poste" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DepartementID" class="control-label">Department</label>
+                <select asp-for="DepartementID" class="form-control"
+                        asp-items="@(new SelectList(ViewBag.Departments,"ID","nom" ))">
+                    <option value="">Chose Department...</option>
+                </select>
+                <span asp-validation-for="DepartementID" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" style="background-color: #2A36B8 !important; color:white !important ; margin-top:10px !important; width:90px !important" />
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index" style="color:  #000C8E !important; text-decoration: none !important; font-size:16px !important; font-weight:600 !important; margin-top:10px !important;">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
