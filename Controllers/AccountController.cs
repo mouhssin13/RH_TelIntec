@@ -64,15 +64,7 @@ namespace Telintec_RH.Controllers
 
         public IActionResult Register()
         {
-
-            if (HttpContext.Session.GetString("userAuthenticated") == "true" && HttpContext.Session.GetString("role") == "ADMIN")
-            {
-                return View();
-            }
-            else
-            {
-                return RedirectToAction(nameof(Login));
-            }
+            return View();
         }
 
         [HttpPost]

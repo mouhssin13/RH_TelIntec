@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\Telintec_RH.csproj": {}
+    "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\Telintec_RH.csproj": {}
   },
   "projects": {
-    "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\Telintec_RH.csproj": {
+    "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\Telintec_RH.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\Telintec_RH.csproj",
+        "projectUniqueName": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\Telintec_RH.csproj",
         "projectName": "Telintec_RH",
-        "projectPath": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\Telintec_RH.csproj",
-        "packagesPath": "C:\\Users\\muhsin Ch\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\obj\\",
+        "projectPath": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\Telintec_RH.csproj",
+        "packagesPath": "C:\\Users\\sanaa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\muhsin Ch\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\sanaa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,7 +22,8 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://www.nuget.org/api/v2/curated-feeds/microsoftdotnet/": {}
+          "C:\\Program Files\\dotnet\\sdk\\7.0.306\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
@@ -92,7 +93,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

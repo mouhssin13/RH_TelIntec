@@ -12,8 +12,8 @@ using Telintec_RH.Data;
 namespace Telintec_RH.Migrations
 {
     [DbContext(typeof(AppDbContext))]
-    [Migration("20230813230925_third_corec_migrate")]
-    partial class third_corec_migrate
+    [Migration("20230825103637_FirstMigration")]
+    partial class FirstMigration
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -24,6 +24,33 @@ namespace Telintec_RH.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder);
+
+            modelBuilder.Entity("Telintec_RH.Models.Absence", b =>
+                {
+                    b.Property<int?>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("ID"));
+
+                    b.Property<DateTime>("Date_Dep")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Date_Fin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EmployeeID")
+                        .HasColumnType("int");
+
+                    b.Property<string>("reason")
+                        .HasColumnType("varchar(250)");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("EmployeeID");
+
+                    b.ToTable("Absence", "TIRH");
+                });
 
             modelBuilder.Entity("Telintec_RH.Models.Account", b =>
                 {
@@ -107,7 +134,6 @@ namespace Telintec_RH.Migrations
                         .HasColumnType("varchar(100)");
 
                     b.Property<string>("image")
-                        .IsRequired()
                         .HasColumnType("varchar(250)");
 
                     b.Property<string>("poste")
@@ -128,6 +154,41 @@ namespace Telintec_RH.Migrations
                     b.ToTable("Employee", "TIRH");
                 });
 
+            modelBuilder.Entity("Telintec_RH.Models.Holiday", b =>
+                {
+                    b.Property<int?>("ID")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int?>("ID"));
+
+                    b.Property<DateTime>("Date_Dep")
+                        .HasColumnType("datetime2");
+
+                    b.Property<DateTime>("Date_Fin")
+                        .HasColumnType("datetime2");
+
+                    b.Property<int>("EmployeeID")
+                        .HasColumnType("int");
+
+                    b.HasKey("ID");
+
+                    b.HasIndex("EmployeeID");
+
+                    b.ToTable("Holiday", "TIRH");
+                });
+
+            modelBuilder.Entity("Telintec_RH.Models.Absence", b =>
+                {
+                    b.HasOne("Telintec_RH.Models.Employee", "Employee")
+                        .WithMany()
+                        .HasForeignKey("EmployeeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
+                });
+
             modelBuilder.Entity("Telintec_RH.Models.Employee", b =>
                 {
                     b.HasOne("Telintec_RH.Models.Departement", "Departement")
@@ -137,6 +198,17 @@ namespace Telintec_RH.Migrations
                         .IsRequired();
 
                     b.Navigation("Departement");
+                });
+
+            modelBuilder.Entity("Telintec_RH.Models.Holiday", b =>
+                {
+                    b.HasOne("Telintec_RH.Models.Employee", "Employee")
+                        .WithMany()
+                        .HasForeignKey("EmployeeID")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.Navigation("Employee");
                 });
 #pragma warning restore 612, 618
         }
