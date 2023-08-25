@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "kkda3+luuVInd+3AQPj6QV7X4kM56mc4zcXCMN3/pyw=",
+  "Hash": "VT1H2Cf5oNBZIXSvanQSuriQYZotT847Iy1eZyJejsc=",
   "Source": "Telintec_RH",
   "BasePath": "_content/Telintec_RH",
   "Mode": "Default",
@@ -49,6 +49,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Telintec_RH.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Contracts\\Default.png",
+      "SourceId": "Telintec_RH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\",
+      "BasePath": "_content/Telintec_RH",
+      "RelativePath": "Contracts/Default.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Contracts\\Default.png"
+    },
+    {
+      "Identity": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Contracts\\dfc03db8-4e88-4c01-aa77-e4bfe114929b.jpeg",
+      "SourceId": "Telintec_RH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\",
+      "BasePath": "_content/Telintec_RH",
+      "RelativePath": "Contracts/dfc03db8-4e88-4c01-aa77-e4bfe114929b.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Contracts\\dfc03db8-4e88-4c01-aa77-e4bfe114929b.jpeg"
     },
     {
       "Identity": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\css\\login.css",
@@ -1239,6 +1273,40 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Reasons\\7f134a0a-4198-48dd-8eb6-931500d6dc5e.png"
+    },
+    {
+      "Identity": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Reasons\\a004cdaa-e529-427b-9132-b58bf015b6ef.jpeg",
+      "SourceId": "Telintec_RH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\",
+      "BasePath": "_content/Telintec_RH",
+      "RelativePath": "Reasons/a004cdaa-e529-427b-9132-b58bf015b6ef.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Reasons\\a004cdaa-e529-427b-9132-b58bf015b6ef.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Reasons\\Default.png",
+      "SourceId": "Telintec_RH",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\",
+      "BasePath": "_content/Telintec_RH",
+      "RelativePath": "Reasons/Default.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Reasons\\Default.png"
     }
   ]
 }

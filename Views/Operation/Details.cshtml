@@ -1,0 +1,41 @@
+﻿@model Telintec_RH.Models.Operation
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Of Operation</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.ID)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.ID)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Date)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Date)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.montant)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.montant)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.contrat)
+        </dt>
+        <dd class = "col-sm-10">
+            <img src="~/Contracts/@Model.contrat" height="592px" width="492px" style="border-radius:15px !important;" />
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index" style="color:  #000C8E !important; text-decoration: none !important; font-size:16px !important; font-weight:600 !important; margin-top:10px !important;">Back to List</a>
+</div>

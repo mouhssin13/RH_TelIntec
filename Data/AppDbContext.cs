@@ -20,6 +20,7 @@ namespace Telintec_RH.Data
 
         public DbSet<Holiday> Holidays { get; set; }
         public DbSet<Absence> Absences { get; set; }
+        public DbSet<Operation> Operations { get; set; }
 
     }
 }
