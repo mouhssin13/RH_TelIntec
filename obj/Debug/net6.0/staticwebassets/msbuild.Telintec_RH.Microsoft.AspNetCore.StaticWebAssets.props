@@ -1168,6 +1168,7 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Reasons\a004cdaa-e529-427b-9132-b58bf015b6ef.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+<<<<<<< HEAD
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Reasons\Default.png))">
       <SourceType>Package</SourceType>
       <SourceId>Telintec_RH</SourceId>
@@ -1184,6 +1185,8 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Reasons\Default.png))</OriginalItemSpec>
     </StaticWebAsset>
+=======
+>>>>>>> 92a0e7bccc5e78b0573511391d090a17ec5934d2
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\Telintec_RH.bundle.scp.css))">
       <SourceType>Package</SourceType>
       <SourceId>Telintec_RH</SourceId>

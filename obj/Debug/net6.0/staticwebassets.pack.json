@@ -1,10 +1,11 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Telintec_RH.bundle.scp.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\Telintec_RH.bundle.scp.css",
       "PackagePath": "staticwebassets\\Telintec_RH.bundle.scp.css"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Contracts\\Default.png",
       "PackagePath": "staticwebassets\\Contracts\\Default.png"
     },
@@ -14,41 +15,45 @@
     },
     {
       "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\0a016b74-0153-4a60-863e-994d09da7541.jpeg",
+=======
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\0a016b74-0153-4a60-863e-994d09da7541.jpeg",
+>>>>>>> 92a0e7bccc5e78b0573511391d090a17ec5934d2
       "PackagePath": "staticwebassets\\Images\\0a016b74-0153-4a60-863e-994d09da7541.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\7000a344-1efc-4b9d-bce9-80adeef4a63d.jpeg",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\7000a344-1efc-4b9d-bce9-80adeef4a63d.jpeg",
       "PackagePath": "staticwebassets\\Images\\7000a344-1efc-4b9d-bce9-80adeef4a63d.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\79e74ae9-5274-473e-ad6e-380e857506bd.jpeg",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\79e74ae9-5274-473e-ad6e-380e857506bd.jpeg",
       "PackagePath": "staticwebassets\\Images\\79e74ae9-5274-473e-ad6e-380e857506bd.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\8aaa0d5d-aa21-4f9c-bad8-3b0e77ffff4d.jpeg",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\8aaa0d5d-aa21-4f9c-bad8-3b0e77ffff4d.jpeg",
       "PackagePath": "staticwebassets\\Images\\8aaa0d5d-aa21-4f9c-bad8-3b0e77ffff4d.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\8cc88778-822b-4f5e-92d2-c901734bb05e.jpeg",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\8cc88778-822b-4f5e-92d2-c901734bb05e.jpeg",
       "PackagePath": "staticwebassets\\Images\\8cc88778-822b-4f5e-92d2-c901734bb05e.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\Default.png",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\Default.png",
       "PackagePath": "staticwebassets\\Images\\Default.png"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\bc6d61ae-964f-4a18-92f7-6e46fd41ce7a.jpeg",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\bc6d61ae-964f-4a18-92f7-6e46fd41ce7a.jpeg",
       "PackagePath": "staticwebassets\\Images\\bc6d61ae-964f-4a18-92f7-6e46fd41ce7a.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Images\\c097e900-fb9c-442f-bb41-a84f0ec6fa62.jpeg",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Images\\c097e900-fb9c-442f-bb41-a84f0ec6fa62.jpeg",
       "PackagePath": "staticwebassets\\Images\\c097e900-fb9c-442f-bb41-a84f0ec6fa62.jpeg"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Reasons\\7f134a0a-4198-48dd-8eb6-931500d6dc5e.png",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Reasons\\7f134a0a-4198-48dd-8eb6-931500d6dc5e.png",
       "PackagePath": "staticwebassets\\Reasons\\7f134a0a-4198-48dd-8eb6-931500d6dc5e.png"
     },
     {
+<<<<<<< HEAD
       "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\Reasons\\Default.png",
       "PackagePath": "staticwebassets\\Reasons\\Default.png"
     },
@@ -58,246 +63,253 @@
     },
     {
       "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\css\\login.css",
+=======
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\Reasons\\a004cdaa-e529-427b-9132-b58bf015b6ef.jpeg",
+      "PackagePath": "staticwebassets\\Reasons\\a004cdaa-e529-427b-9132-b58bf015b6ef.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\css\\login.css",
+>>>>>>> 92a0e7bccc5e78b0573511391d090a17ec5934d2
       "PackagePath": "staticwebassets\\css\\login.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\muhsin Ch\\source\\repos\\Telintec_RH\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\sanaa\\OneDrive\\Desktop\\PFA\\project\\RH_TelIntec\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
